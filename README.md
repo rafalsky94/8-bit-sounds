@@ -1,4 +1,4 @@
-#8-bit sounds
+# 8-bit sounds
 
 # Description 
 
