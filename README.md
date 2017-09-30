@@ -8,4 +8,4 @@ I'm going to add more sounds + better quality + compression
 
 # Live
 
-https://rafalsky94.github.io/8bit/
+https://rafalsky94.github.io/8-bit-sounds/
