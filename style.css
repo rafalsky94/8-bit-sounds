@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: url(acoustic_guitar.png) no-repeat;
+}
+
+.keys-table {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.keys-row {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.key {
+    font-family: sans-serif;
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    width: 6vw;
+    margin: 0 2vw;
+    text-align: center;
+    transition: all .07s ease;
+}
+
+.active {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 35px 10px rgba(231,247,8,1);
+    -moz-box-shadow: 0px 0px 35px 10px rgba(231,247,8,1);
+    box-shadow: 0px 0px 35px 10px rgba(231,247,8,1);
+}
