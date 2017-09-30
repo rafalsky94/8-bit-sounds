@@ -29,7 +29,7 @@ body {
     width: 6vw;
     margin: 0 2vw;
     text-align: center;
-    transition: all .07s ease;
+    transition: all 0.1s ease;
 }
 
 .active {
