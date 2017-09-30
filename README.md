@@ -1,5 +1,4 @@
-# gitarra
-key-guitar
+#8-bit sounds
 
 # Description 
 
@@ -9,4 +8,4 @@ I'm going to add more sounds + better quality + compression
 
 # Live
 
-https://rafalsky94.github.io/gitarra/
+https://rafalsky94.github.io/8bit/
