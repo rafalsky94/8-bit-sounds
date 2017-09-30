@@ -19,6 +19,7 @@ body {
 }
 
 .key {
+    cursor: pointer;
     font-family: sans-serif;
     font-size: 5vw;
     color: rgb(0, 0, 0);
