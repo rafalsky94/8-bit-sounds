@@ -5,6 +5,7 @@ const mouseClick = document.querySelectorAll(".key");
 mouseClick.forEach(click => click.addEventListener("click", (e) => {
     const audio = document.querySelector(`audio[data-key="${e.target.dataset.key}"]`);
     audio.play();
+    audio.volume = 0.01;
     const button = document.querySelector(`.key[data-key="${e.target.dataset.key}"`);
     button.classList.add("active");
 }));
@@ -14,6 +15,7 @@ window.addEventListener("keydown", (e) => {
     if(!audio) return;
     audio.currentTime = 0;
     audio.play();
+    audio.volume = 0.01;
     const button = document.querySelector(`.key[data-key="${e.keyCode}"`);
     button.classList.add("active");
 })
